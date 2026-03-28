@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#app {
+  min-height: 100%;
+}
+
+:root {
+  --bg: #f1f5f9;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --kent-blue: #003d7a;
+  --kent-accent: #0066b3;
+  --wellbeing: #8b2942;
+  --user-bubble: #e3eef8;
+  --assistant-bubble: #f7f9fc;
+  --border: #e2e8f0;
+  --shadow: 0 8px 32px rgba(26, 35, 50, 0.08);
+}
