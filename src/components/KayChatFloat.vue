@@ -4,7 +4,7 @@
       v-if="!isOpen"
       type="button"
       class="chat-bubble"
-      title="Open Kay — student support chat"
+      title="Open Kay - student support chat"
       aria-label="Open chat"
       @click="toggleChat"
     >

@@ -7,7 +7,7 @@ const router = createRouter({
       path: "/",
       name: "chat",
       component: () => import("@/views/ChatView.vue"),
-      meta: { title: "Kay — Kent Student Support" },
+      meta: { title: "Kay - Kent Student Support" },
     },
   ],
 });

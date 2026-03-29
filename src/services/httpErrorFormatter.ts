@@ -35,7 +35,7 @@ function networkHint(apiBaseUrl: string): string {
  */
 export function mapAxiosErrorToUserMessage(error: unknown, apiBaseUrl: string): string {
   if (!axios.isAxiosError(error)) {
-    return "Unexpected error — try again.";
+    return "Unexpected error - try again.";
   }
 
   const fromBody = error.response?.data != null ? pickMessageFromBody(error.response.data) : null;

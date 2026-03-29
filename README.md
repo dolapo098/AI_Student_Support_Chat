@@ -1,4 +1,4 @@
-# Kay — Student Support UI
+# Kay - Student Support UI
 
 Single-page **Vue 3 + TypeScript + Vite** app for `KENT_AI_Service`: a richer **landing** plus a **floating chat** (DSH-style bubble, bottom-right).
 
@@ -18,7 +18,7 @@ Single-page **Vue 3 + TypeScript + Vite** app for `KENT_AI_Service`: a richer **
 
    Opens **http://localhost:5173** (backend defaults allow **localhost** and **127.0.0.1** on ports 5173/3000). Use the **same** host in the address bar as in `ALLOWED_ORIGINS` if you customise it.
 
-## Deploy to Vercel (from your machine — account is in the browser)
+## Deploy to Vercel (from your machine - account is in the browser)
 
 You **cannot** finish Vercel signup inside Cursor. The repo is ready so import is quick:
 
@@ -44,5 +44,5 @@ docker run --rm -p 8080:80 kentassessment:local
 
 ## API contract
 
-- `POST /chat` — `{ "message", "session_id" }` (server holds history)
-- `DELETE /chat/session/{session_id}` — clear server session (“Clear chat”)
+- `POST /chat` - `{ "message", "session_id" }` (server holds history)
+- `DELETE /chat/session/{session_id}` - clear server session (“Clear chat”)

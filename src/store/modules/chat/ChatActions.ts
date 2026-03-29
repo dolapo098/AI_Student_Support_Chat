@@ -6,9 +6,9 @@ import kayApi from "@/services/api";
 import { newMessageId } from "./ChatState";
 
 const WELCOME_ASSISTANT_COPY =
-  "Hi! 👋 I'm **Kay** (*Kent Advice for You*) — here for admissions, courses, fees and funding, " +
+  "Hi! 👋 I'm **Kay** (*Kent Advice for You*) - here for admissions, courses, fees and funding, " +
   "deadlines and assessments, wellbeing, and everyday student life at Kent.\n\n" +
-  "Ask in your own words, even if it's vague — I'll help narrow down what you need. " +
+  "Ask in your own words, even if it's vague - I'll help narrow down what you need. " +
   "Or try *“What can you help me with?”* for a quick tour.";
 
 export const actions: ActionTree<ChatState, RootState> = {

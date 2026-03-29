@@ -16,7 +16,7 @@
           Meet <em>Kay</em><span class="dot">.</span>
         </h1>
         <p class="lead">
-          Kent <strong>Advice</strong> for <strong>You</strong> — your first stop for admissions,
+          Kent <strong>Advice</strong> for <strong>You</strong> - your first stop for admissions,
           deadlines, wellbeing, funding, and campus life. Answers are grounded in Kent sources;
           we’ll signpost you to the right team when you need a human.
         </p>
@@ -50,7 +50,7 @@
         <article class="card">
           <span class="card-emoji" aria-hidden="true">🎓</span>
           <h3>Admissions &amp; finance</h3>
-          <p>Courses, fees, and practical next steps — with links to official pages.</p>
+          <p>Courses, fees, and practical next steps - with links to official pages.</p>
         </article>
       </section>
 
